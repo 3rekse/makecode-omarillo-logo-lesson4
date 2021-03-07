@@ -1,12 +1,12 @@
 ### @explicitHints true
 
-# Turtle Logo - Lesson #3
+# Turtle Logo - Lesson #4
 
-## Turtle Logo - Lesson #3 @unplugged
-**Making the Turtle Turn.**
+## Turtle Logo - Lesson #4 @unplugged
+**Making the Turtle's Pen Change Color.**
 
-In this lesson you will make your **Turtle** turn.
-![Hello, World!](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson3/raw/main/assets/turn_screenshot.png)
+In this lesson you will change the color of the trail the **Turtle** leaves.
+![](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson4/raw/main/assets/color_screenshot.png)
 
 ## Step 1
 ** Follow Along**
@@ -19,57 +19,47 @@ turtle.showTurtle()
 ## Step 2
 ** Follow Along**
 
-In the last lesson you learned to move the **Turtle** forwards or backwards.
+The **Turtle** by default leaves a white trail behind it. This color can be changed by using the ⇢set turtle's pen color to ▢⇠ block.
 ```blocks
 turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
-turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
+turtle.setPenColor(1)
 ```
 
 ## Step 3
 ** Follow Along**
 
-To turn the Turtle you will use the ⇢turn turtle right 90 °⇠ block and place it inside the ⇢on start⇠ block after a move block.
+Inside the ⇢set turtle's pen color to ▢⇠ block, select the *▢* and select *red*. Now add a ⇢myTurtle move forward 25 steps⇠ block to see the new red trail.
 ```blocks
 turtle.showTurtle()
+turtle.setPenColor(2)
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
-turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
-turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 90)
 ```
 
 ## Step 4
 ** Follow Along**
 
-At the moment it looks like nothing has happened. That is because the **Turtle** has turned, but you need to move it to see that it has turned. Add another move turtle forward 25 steps⇠ block after the ⇢turn turtle right 90 °⇠ block.
+You can even change the color more than once. After moving forwards, change the color to *blue* and move forwards again.
 ```blocks
 turtle.showTurtle()
+turtle.setPenColor(2)
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
-turtle.moveTurtleDirection(TurtleDirection.Backward, 50)
-turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 90)
+turtle.setPenColor(8)
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 ```
 
-## Step 5
+## Step 4
 ** Try it Out**
 
-Notice the *right* in the block. The direction can be changed to turn the **Turtle** right or left. Try turning the **Turtle** left.
+Now try moving the **Turtle** some different distances, different directions, turning and changing color.
 ```blocks
 turtle.showTurtle()
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
-turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Left, 90)
-turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
-```
-
-## Step 5
-** Try it Out**
-
-Now try moving the **Turtle** some different distances, different directions and now turning it as well.
-```blocks
-turtle.showTurtle()
+turtle.setPenColor(8)
 turtle.moveTurtleDirection(TurtleDirection.Backward, 25)
 turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Right, 90)
+turtle.setPenColor(2)
 turtle.moveTurtleDirection(TurtleDirection.Forward, 50)
 turtle.turnTurtleDirectionByDegrees(TurtleTurnDirection.Left, 90)
+turtle.setPenColor(7)
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 ```
 
@@ -81,7 +71,11 @@ You can now make the **Turtle** turn right and left.
 ## Step 7
 **Your Turn**
 
-Get your **Turtle** to move, turn and then say, "I can change direction!"
+Get your **Turtle** to:
+- move
+- change its trail color
+- turn
+- then say, "I can change colors!"
 
 ## Step 8
 **Done**
