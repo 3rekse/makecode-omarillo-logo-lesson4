@@ -81,7 +81,7 @@ Get your **Turtle** to:
 ## Step 8
 **Done**
 
-You have successfully completed your third lesson in Turtle Logo.
+You have successfully completed your forth lesson in Turtle Logo.
 
 ```ghost
 turtle.say("Hello, World!")
