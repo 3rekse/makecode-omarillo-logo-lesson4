@@ -38,7 +38,7 @@ turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 ## Step 4
 ** Follow Along**
 
-You can even change the color more than once. After moving forwards, change the color to *blue* and move forwards again.
+You can even change the color more than once. After moving forwards, add another ⇢set turtle's pen color to ▢⇠ block and change the color to *blue* then add forwards again.
 ```blocks
 turtle.showTurtle()
 turtle.setPenColor(2)
@@ -66,7 +66,7 @@ turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 ## Step 6
 **Success!**
 
-You can now make the **Turtle** turn right and left.
+You can now change the trail color the **Turtle** leaves.
 
 ## Step 7
 **Your Turn**
@@ -75,6 +75,7 @@ Get your **Turtle** to:
 - move
 - change its trail color
 - turn
+- move again
 - then say, "I can change colors!"
 
 ## Step 8
