@@ -6,7 +6,7 @@
 **Making the Turtle's Pen Change Color.**
 
 In this lesson you will change the color of the trail the **Turtle** leaves.
-![](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson4/raw/main/assets/color_screenshot.png)
+![color](https://github.com/Mr-Coxall/makecode-arcade-turtle-logo-lesson4/raw/main/assets/color_screenshot.png)
 
 ## Step 1
 ** Follow Along**
