@@ -28,7 +28,7 @@ turtle.setPenColor(1)
 ## Step 3
 ** Follow Along**
 
-Inside the ⇢set turtle's pen color to ▢⇠ block, select the *▢* and select *red*. Now add a ⇢myTurtle move forward 25 steps⇠ block to see the new red trail.
+Inside the ⇢set turtle's pen color to ▢⇠ block, select the "▢" and select *red*. Now add a ⇢myTurtle move forward 25 steps⇠ block to see the new red trail.
 ```blocks
 turtle.showTurtle()
 turtle.setPenColor(2)
