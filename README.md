@@ -47,7 +47,7 @@ turtle.setPenColor(8)
 turtle.moveTurtleDirection(TurtleDirection.Forward, 25)
 ```
 
-## Step 4
+## Step 5
 ** Try it Out**
 
 Now try moving the **Turtle** some different distances, different directions, turning and changing color.
